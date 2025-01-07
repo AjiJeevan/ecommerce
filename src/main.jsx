@@ -34,8 +34,6 @@ const router = createBrowserRouter([
 ])
 
 createRoot(document.getElementById('root')).render(
-    // <ProductsListing />
-    // <ProductDetails />
     <>
     <RouterProvider router={router} />
     </>
